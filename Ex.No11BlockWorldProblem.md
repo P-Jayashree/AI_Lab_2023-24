@@ -44,21 +44,14 @@ Step 10 : Obtain the plan for given problem.<br>
   :precondition (and (on ?ob ?underob) (clear ?ob) (arm-empty))
   :effect (and (holding ?ob) (clear ?underob)
                (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
-
-
 ```
-
-
-
-
-
 ### Input 
+(:domain blocksworld)
+   (:objects a b)
+   (:init (on-table a) (on-table b)  (clear a)  (clear b) (arm-empty))
+   (:goal (and (on a b))))
 
 ### Output/Plan:
 ![image](https://github.com/P-Jayashree/AI_Lab_2023-24/assets/161108372/347e4946-61e0-4a64-89f0-e7eb57085749)
-
-
-
-
 ### Result:
 Thus the plan was found for the initial and goal state of block world problem.
