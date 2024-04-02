@@ -1,5 +1,5 @@
 # Ex.No: 3  Implementation of Minimax Search
-### DATE: 24/02/24                                                                           
+### DATE: 19/03/24                                                                           
 ### REGISTER NUMBER : 212221060098
 ### AIM: 
 Write a mini-max search algorithm to find the optimal value of MAX Player from the given graph.
@@ -38,21 +38,7 @@ treeDepth = math.log(len(scores), 2) # calculate depth of node  log 8 (base 2) =
 print("The optimal value is : ", end = "")
 print(minimax(0, 0, True, scores,treeDepth))
 ```
-
-
-
-
-
-
-
-
-
-
 ### Output:
-![image](https://github.com/P-Jayashree/AI_Lab_2023-24/assets/161108372/e7c60598-b95f-4e69-8fb0-6cb29f3fb334)
-
-
-
-
+![image](https://github.com/P-Jayashree/AI_Lab_2023-24/assets/161108372/22323270-61c9-4194-af34-f1d06d838f67)
 ### Result:
 Thus the optimum value of max player was found using minimax search.
