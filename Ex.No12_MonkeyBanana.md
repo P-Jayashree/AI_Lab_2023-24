@@ -63,11 +63,6 @@ Step 7: Stop the program.<br>
 	     :effect (haswater)))
 
 ```
-
-
-
-
-
 ### Input (define (problem pb1)
     	```
      (:domain monkey)
@@ -86,6 +81,7 @@ Step 7: Stop the program.<br>
 )
 ```
 ### Output/Plan:
+![image](https://github.com/P-Jayashree/AI_Lab_2023-24/assets/161108372/30f3b967-3529-492e-9378-2d78978f80c0)
 
 
 
