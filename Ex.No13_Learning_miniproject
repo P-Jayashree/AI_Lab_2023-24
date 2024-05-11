@@ -1,13 +1,10 @@
-# Ex.No: 10 Learning – Use Supervised Learning  
-### DATE:                                                                            
-### REGISTER NUMBER : 
-### AIM: 
 Ex.No13_Learning_miniproject
 DATE 22-04-2024
-REGISTER NUMBER : 212221060080
+REGISTER NUMBER : 212221060098
 AIM:
 Write a Prolog program to build a computer maintenance expert system.
 Algorithm:
+```
 . Start the program.
 . Import required Python libraries, including NumPy, Pandas, Google Colab, Gradio, and
 various scikit-learn modules.
@@ -26,7 +23,9 @@ predictions based on user inputs.
  . Launch the Gradio web application, enabling sharing, to allow users to input their data and
 get predictions regarding diabetes risk.
 12 .Stop the program.
+```
 Program:
+```
 #import packages
 import numpy as np
 import pandas as pd
@@ -76,17 +75,9 @@ return prediction
 outputs = gr.Textbox()
 app = gr.Interface(fn=diabetes, inputs=['number','number','number','number','nu
 app.launch(share=True)
-Output:
+Output: C:\Users\91934\Pictures\Screenshots\Screenshot 2024-05-11 120404.png
 Result:
 Thus the simple omputer maintenance expert system was built sucessfully.
-To write a program to train the classifier for -----------------.
-###  Algorithm:
-
-### Program:
+```
 
 
-### Output:
-
-
-### Result:
-Thus the system was trained successfully and the prediction was carried out.
